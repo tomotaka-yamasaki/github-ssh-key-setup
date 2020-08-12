@@ -18,7 +18,7 @@ Register SSH key to Github
 - GitHub Enterprise ServerにSSH公開鍵を登録するためのスクリプト
   - .ssh配下に公開鍵ファイルがなければ生成
   - GitHub Enterprise Serverとssh接続可能か確認
-    - SSO対応済みなのでGitHubのようにcurlを使い、 <username>.keys で鍵取得できない
+    - SSO対応済みなのでGitHubのようにcurlを使い、 'username'.keys で鍵取得できない
   - .ssh配下にid_rsa.pubがあればクリップボードにコピーし、登録画面を開く
   - .ssh配下に他の方式の鍵がある場合は標準出力し、登録画面を開く
 
